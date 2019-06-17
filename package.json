@@ -4,12 +4,11 @@
   "description": "section media for new2.cosmos.ru",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
     "test": "jest",
     "coverage": "jest --coverage",
-    "lint": "eslint .",
-    "build": "webpack --mode production",
-    "doc": "jsdoc -c jsdoc.conf.json"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
