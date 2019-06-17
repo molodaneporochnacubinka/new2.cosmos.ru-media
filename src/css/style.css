@@ -790,7 +790,7 @@ body {
 
 
   
-  @media (min-width: 1200px) {
+  @media (min-width: 1200px) {}
  
   .col-front-res-news .title::after, .align-center .title::after, .title::after, .side-events-block .title::after, .row-popular-mob h4::after {
     content: '';
