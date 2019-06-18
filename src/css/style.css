@@ -99,6 +99,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-image: url('../img/preview_img.jpg');
     color: white;
     overflow: hidden;
     border-radius: 8px 8px 0 0;
