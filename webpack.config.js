@@ -42,8 +42,8 @@ module.exports = {
       // },
       {
         test: /\.(jpe?g|gif|png)$/,
-        loader: 'file-loader?emitFile=false&name=[path][name].[ext]'
-       }
+        loader: 'file-loader?emitFile=false&name=[path][name].[ext]',
+      },
     ],
   },
   plugins: [
