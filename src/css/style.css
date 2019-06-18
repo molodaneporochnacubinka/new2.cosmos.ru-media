@@ -4,6 +4,12 @@ main {
     padding-right: 40px;
 }
 
+.wrapper {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .bg-dark {
     /* background-color: #060F3D!important; */
     background-color: #ffffff!important;
