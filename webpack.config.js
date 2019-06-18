@@ -40,6 +40,13 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpg|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]'
+        }
+      }
     ],
   },
   plugins: [
