@@ -41,12 +41,12 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpg|svg)$/,
+        test: /\.(png|jpg|svg)$/i,
         loader: 'file-loader',
         options: {
-          name: '[path][name].[ext]'
-        }
-      }
+          name: '[path][name].[ext]',
+        },
+      },
     ],
   },
   plugins: [
