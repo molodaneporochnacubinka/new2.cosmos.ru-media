@@ -29,21 +29,21 @@ module.exports = {
           MiniCssExtractPlugin.loader, 'css-loader',
         ],
       },
-      // {
-      //   test: /\.(png|jpg|gif)$/i,
-      //   use: [
-      //     {
-      //       loader: 'url-loader',
-      //       options: {
-      //         limit: 8192,
-      //       },
-      //     },
-      //   ],
-      // },
       {
-        test: /\.(jpe?g|gif|png)$/,
-        loader: 'file-loader?emitFile=false&name=[path][name].[ext]',
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+            },
+          },
+        ],
       },
+      // {
+      //   test: /\.(jpe?g|gif|png)$/,
+      //   loader: 'file-loader?emitFile=false&name=[path][name].[ext]',
+      // },
     ],
   },
   plugins: [
